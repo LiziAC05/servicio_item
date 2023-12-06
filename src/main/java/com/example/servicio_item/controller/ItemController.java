@@ -38,6 +38,7 @@ public class ItemController {
         Product product = productDao.obtenPorID(id);
         Item item = new Item();
         item.setProduct(product);
+
         item.setCantidad(Math.round(Math.random() * 10));
         return item;
     }
