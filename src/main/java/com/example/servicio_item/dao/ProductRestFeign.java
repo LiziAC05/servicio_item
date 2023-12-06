@@ -9,6 +9,7 @@ import java.util.List;
 @FeignClient(name="servicio-producto")
 public interface ProductRestFeign {
     @GetMapping("/productos")
+
     List<Product> listar();
 
     @GetMapping("/productos/{id}")

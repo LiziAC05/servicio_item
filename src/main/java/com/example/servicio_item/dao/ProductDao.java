@@ -13,6 +13,7 @@ public class ProductDao {
         RestTemplate restTemplate = new RestTemplate();
         Product[] productsArray =
                 //obtengo de la dirección
+
                 restTemplate.getForObject("http://localhost:8001/productos", Product[].class);
         return Arrays.asList(productsArray); //lo convierte a lista.
     }

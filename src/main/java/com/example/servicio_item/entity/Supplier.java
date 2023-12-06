@@ -4,6 +4,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+
 public class Supplier {
     private Integer id;
     private String companyName;

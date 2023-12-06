@@ -8,4 +8,5 @@ public class Item {
     //un numero aleatorio de productos -- lo simula
     private Product product;
     private long cantidad; //el numero aleatorio
+
 }

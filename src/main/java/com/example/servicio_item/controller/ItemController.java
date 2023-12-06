@@ -39,6 +39,7 @@ public class ItemController {
         Item item = new Item();
         item.setProduct(product);
 
+
         item.setCantidad(Math.round(Math.random() * 10));
         return item;
     }

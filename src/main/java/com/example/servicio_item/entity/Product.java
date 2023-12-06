@@ -10,6 +10,7 @@ public class Product {
     private String productName;
     private Supplier supplier;
     private Category category;
+
     private String quantityPerUnit;
     private Double unitPrice;
     private Integer unitsInStock;

@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class ServicioItemApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(ServicioItemApplication.class, args);
     }
 
